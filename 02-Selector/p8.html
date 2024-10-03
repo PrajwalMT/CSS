@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+        .container,.container1{
+            background-color: lightblue;
+        }
+        /* Descendant */
+        .container.card{
+            padding:20px;
+            color:white;
+            border:2px solid black;
+        }
+
+
+        /* Child */
+        .container1>.card1>.card1{
+            padding:20px;
+            color:white;
+            border:2px solid black;
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Descendant Combinator (space) and Child Combinator (>)</h1>
+    </center>
+    <hr>
+
+    <h2>Descendant Combinator Example...!</h2>
+    <section class="container">
+        <div class="card">
+            <h3>First Child</h3>
+            <div class="card">
+                <h3>Child Card</h3>
+                <div class="card">
+                    <h3>Grand Child</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <h2>Child Combinator Example...!</h2>
+    <section class="container1">
+        <div class="card1">
+            <h3>First Child</h3>
+            <div class="card1">
+                <h3>Child Card</h3>
+                <div class="card1">
+                    <h3>Grand Child</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

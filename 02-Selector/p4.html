@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0%;
+            padding:0%;
+        }
+        section.democlass{/when we use section.democlass even though we declare the class in the div it will not affect bcoz we have declared that it is for section by section.demoClass/
+            background-color: yellow;
+            color:blue;
+            padding: 20px;/here we have declared padding and margin so it comes slight left or else it will start from the left end where body begins/
+            margin:20px;
+        }
+        .heading{
+            background-color: grey;
+            padding:20px;
+            display:flex;
+            justify-content:space-between;/align x axis/
+            align-items: center;/align y axis/
+        }
+        a{
+            color:white;
+            text-decoration: none;
+            background-color: lightgray;
+            padding:15px;
+        }
+        .logo{
+            height:54px;
+        }
+        .name{
+            font-size: 30px;
+            color:blue;
+            margin:20px;
+            background-color:coral;
+            padding:20px;
+            
+        }
+        .job{
+            font-size: 30px;
+            color:chartreuse;
+            margin:20px;
+            background-color:black;
+            padding:20px;
+        }
+        .about{
+            font-size:30px;
+            color:crimson;
+            margin:20px;
+            padding:20px;
+            background-color:coral;
+        }
+        .about-title{
+            color:black;
+            background-color:white;
+        }
+        .home{
+            background-color:grey;
+            padding:20px;
+        }
+        .contact{
+            
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>CLASS SELECTOR</h1>
+    </center>
+    <hr>
+    <h2>Example-1</h2>
+    <div class="democlass">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae aspernatur sed commodi odio fugiat dolor ea fugit voluptatem vel sit, incidunt et neque ipsam, qui adipisci aperiam, sapiente numquam.</p>
+    </div>
+    <div class="democlass">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint expedita assumenda porro ratione, aliquid illum autem vero mollitia voluptatum voluptas quidem facilis eligendi necessitatibus quae commodi? Culpa dolore autem necessitatibus?</p>
+    </div>
+    <section class="democlass">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint expedita assumenda porro ratione, aliquid illum autem vero mollitia voluptatum voluptas quidem facilis eligendi necessitatibus quae commodi? Culpa dolore autem necessitatibus?</p>
+    </section>
+    <h2>Example-2</h2>
+    <hr>
+    <header class="heading">
+        <img class="logo"src="https://bepractical.s3.us-east-2.amazonaws.com/brand-logo.cc6e3cf088a8fd3005b1.jpg" alt="">
+
+        <nav class="menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <center>
+    <h2>Assignment</h2>
+    </center>
+    <section class="container">
+        <div class="home">
+            <h1 class="name">john Mathew</h1>
+            <h3 class="job">Developer</h3>
+        </div>
+      <div class="about">
+        <h3 class="about-title">About Me</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto assumenda earum eligendi quod, reiciendis maxime expedita repudiandae est in recusandae. Eligendi cumque dolor vitae aliquam corrupti debitis, quam aspernatur eos!</p>
+    </div>
+    <div class="contact">
+        <h3 class="contact-title">Contact us</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia quibusdam eos qui maiores ipsa esse, molestiae explicabo sunt vel non distinctio iure assumenda. Distinctio veritatis voluptate commodi neque rem laboriosam!</p>
+    
+    </div>
+</section>
+</body>
+</html>
