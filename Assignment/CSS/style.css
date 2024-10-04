@@ -9,9 +9,9 @@
 header{
     background-color:orange;
     display:flex;
-    /* justify-content:space-between; */
+    justify-content:space-between;
     align-items:center;
-    border-radius:7px;
+    border:7px;
     padding:30px;
    
 }
@@ -23,7 +23,7 @@ a{
 }
 a[href="products"]{
     background-color: black;
-    color:orange
+    color:white;
 }
 header>div>h1>span{
     color:white;
